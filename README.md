@@ -1,4 +1,4 @@
-# did-props-change
+# props-did-change
 Additional react lifecycle hook called when component is mounted or component's props are changed.
 Works both with typescript and javascript.
 
