@@ -1,5 +1,5 @@
 {
-  "name": "did-props-change",
+  "name": "props-did-change",
   "version": "0.1.0",
   "description": "Additional react lifecycle hook called when component is mounted or component's props are changed",
   "main": "dist/index.js",
