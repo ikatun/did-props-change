@@ -1,0 +1,33 @@
+{
+  "name": "did-props-change",
+  "version": "0.1.0",
+  "description": "Additional react lifecycle hook called when component is mounted or component's props are changed",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ikatun/did-props-change.git"
+  },
+  "keywords": [
+    "react",
+    "props",
+    "change",
+    "props-change",
+    "mount",
+    "update",
+    "mount-or-update"
+  ],
+  "author": "Ivo Katunaric",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ikatun/did-props-change/issues"
+  },
+  "homepage": "https://github.com/ikatun/did-props-change#readme",
+  "devDependencies": {
+    "typescript": "^2.7.2"
+  }
+}
