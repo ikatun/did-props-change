@@ -2,7 +2,7 @@
 Additional react lifecycle hook called when component is mounted or component's props are changed.
 Works both with typescript and javascript.
 
-Useful when you want to sync some data with an API on both componentDidMount and componentDidUpdate lifecycle events.
+Useful when you want to sync some data with an API on both `componentDidMount` and `componentDidUpdate` lifecycle hooks.
 
 ## Typescript Example
 ```JSX
