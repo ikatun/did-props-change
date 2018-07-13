@@ -4,6 +4,11 @@ Works both with typescript and javascript.
 
 Useful when you want to sync some data with an API on both `componentDidMount` and `componentDidUpdate` lifecycle hooks.
 
+## Installation
+```
+npm install props-did-change
+```
+
 ## Typescript Example
 ```JSX
 import propsDidChange from 'props-did-change';
