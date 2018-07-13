@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ikatun/did-props-change.git"
+    "url": "git+https://github.com/ikatun/props-did-change.git"
   },
   "keywords": [
     "react",
@@ -24,9 +24,9 @@
   "author": "Ivo Katunaric",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ikatun/did-props-change/issues"
+    "url": "https://github.com/ikatun/props-did-change/issues"
   },
-  "homepage": "https://github.com/ikatun/did-props-change#readme",
+  "homepage": "https://github.com/ikatun/props-did-change#readme",
   "devDependencies": {
     "typescript": "^2.7.2"
   }
