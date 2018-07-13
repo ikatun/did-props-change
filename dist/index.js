@@ -36,7 +36,7 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var noop = function () { return null; };
-function didPropsChange(classObject, key, descriptor) {
+function propsDidChange(classObject, key, descriptor) {
     if (descriptor === undefined) {
         descriptor = Object.getOwnPropertyDescriptor(classObject, key);
     }
@@ -74,5 +74,5 @@ function didPropsChange(classObject, key, descriptor) {
     };
     return descriptor;
 }
-exports.didPropsChange = didPropsChange;
-exports.default = didPropsChange;
+exports.propsDidChange = propsDidChange;
+exports.default = propsDidChange;

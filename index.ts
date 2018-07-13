@@ -1,6 +1,6 @@
 const noop = () => null;
 
-export function didPropsChange(classObject: any, key: string, descriptor: object | undefined) {
+export function propsDidChange(classObject: any, key: string, descriptor: object | undefined) {
   if (descriptor === undefined) {
     descriptor = Object.getOwnPropertyDescriptor(classObject, key);
   }
@@ -26,4 +26,4 @@ export function didPropsChange(classObject: any, key: string, descriptor: object
   return descriptor;
 }
 
-export default didPropsChange;
+export default propsDidChange;

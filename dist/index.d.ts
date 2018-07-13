@@ -1,2 +1,2 @@
-export declare function didPropsChange(classObject: any, key: string, descriptor: object | undefined): object | undefined;
-export default didPropsChange;
+export declare function propsDidChange(classObject: any, key: string, descriptor: object | undefined): object | undefined;
+export default propsDidChange;
